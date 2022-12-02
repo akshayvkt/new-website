@@ -1,0 +1,31 @@
+/* Add some basic styles here */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Add styles for dark mode */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  .dark-mode .container {
+    background-color: #444;
+    color: #eee;
+  }
