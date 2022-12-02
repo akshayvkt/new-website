@@ -7,6 +7,6 @@ function toggleDarkLight() {
     // Update the button text and the text in the HTML file
     var button = document.getElementById("toggle-button");
     var text = document.getElementById("toggle-text");
-    button.innerHTML = currentClass == "dark-mode" ? "Light" : "Dark";
+    button.innerHTML = currentClass == "dark-mode" ? "Dark" : "Light";
     text.innerHTML = currentClass == "dark-mode" ? "Switch to light mode" : "Switch to dark mode";
   }
